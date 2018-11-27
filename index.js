@@ -13,6 +13,5 @@ function increaseRankBy(n) {
 }
 function deepestChild() {
   let deepChild = document.getElementById("grand-note").querySelectorAll('div');
-  deepChild = deepChild.length - 1;
-  return deepChild;
+  return deepChild[deepChild.length - 1];
 }
