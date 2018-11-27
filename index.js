@@ -15,7 +15,7 @@ function deepestChild() {
   let lis = document.getElementById("grand-node").querySelectorAll("div");
   let deep;
   for(let i = 0;i < lis.length - 1; i++) {
-    test = lis[i].querySelector("div");
+    deep = lis[i].querySelector("div");
   }
 return deep;
 }
