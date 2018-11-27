@@ -12,9 +12,10 @@ function increaseRankBy(n) {
   }
 }
 function deepestChild() {
-  let deepChild = document.querySelectorAll("div#grand-note div");
-    for (let i = 0; i < deepChild.length - 1; i++){
-    
-      
-    }
+  var lis=document.getElementById("grand-node").querySelectorAll("div");
+  var test;
+  for(let i=0;i<lis.length-1;i++) {
+    test=lis[i].querySelector("div");
+  }
+return test;
 }
