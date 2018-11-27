@@ -15,5 +15,5 @@ function deepestChild() {
   let deepChild = document.querySelectorAll("div#grand-note div");
     for (let i = 0; i < deepChild.length - 1; i++){
     }
-    return deepChild[i];  
+    return deepChild;  
 }
